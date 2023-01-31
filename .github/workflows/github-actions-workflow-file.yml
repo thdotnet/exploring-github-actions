@@ -53,5 +53,5 @@ jobs:
     runs-on: windows-latest
     needs: Example-Actions-Job
     steps:
-      - run: echo "This is now running on a ${{runner-os}} server hosted by Github."
+      - run: echo "This is now running on a ${{runner.os}} server hosted by Github."
   
